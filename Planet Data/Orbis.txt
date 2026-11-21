@@ -22,7 +22,7 @@
   },
   "TERRAIN_DATA": {
     "TERRAIN_TEXTURE_DATA": {
-      "planetTexture": "Moon",
+      "planetTexture": "V7_Orbis",
       "planetTextureCutout": -0.999,
       "planetTextureRotation": 0.0,
       "planetTextureDontDistort": false,
