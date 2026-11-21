@@ -1,0 +1,9 @@
+{
+  "includeDefaultPlanets": false,
+  "includeDefaultHeightmaps": true,
+  "includeDefaultTextures": true,
+  "hideStarsInAtmosphere": true,
+  "authorName": "Veyron-7 Project",
+  "version": "1.0",
+  "description": "Veyron orange dwarf system: 6 planets and 2 moons."
+}
