@@ -47,7 +47,7 @@
     }
   },
   "FRONT_CLOUDS_DATA": {
-    "cloudsTexture": "Uranus",
+    "cloudsTexture": "V7_Eryx",
     "cloudTextureCutout": 0.9,
     "fadeZoneHeight": 10000.0,
     "height": 10000.0,
