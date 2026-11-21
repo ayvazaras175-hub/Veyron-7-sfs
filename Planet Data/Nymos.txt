@@ -84,7 +84,7 @@
   },
   "TERRAIN_DATA": {
     "TERRAIN_TEXTURE_DATA": {
-      "planetTexture": "Earth_WithOceans",
+      "planetTexture": "V7_Nymos",
       "planetTextureCutout": 0.9947,
       "planetTextureRotation": 1.85,
       "planetTextureDontDistort": true,
