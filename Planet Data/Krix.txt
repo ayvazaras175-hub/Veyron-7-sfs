@@ -18,7 +18,7 @@
   },
   "TERRAIN_DATA": {
     "TERRAIN_TEXTURE_DATA": {
-      "planetTexture": "Mercury",
+      "planetTexture": "V7_Krix",
       "planetTextureCutout": 0.945,
       "planetTextureRotation": 0.0,
       "planetTextureDontDistort": false,
