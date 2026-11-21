@@ -3,7 +3,7 @@
   "BASE_DATA": {
     "radius": 1050000.0,
     "radiusDifficultyScale": {},
-    "gravity": 8.1,
+    "gravity": 2.1,
     "gravityDifficultyScale": {},
     "timewarpHeight": 84000.0,
     "velocityArrowsHeight": 0.0,
