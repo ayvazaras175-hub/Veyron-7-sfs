@@ -1,0 +1,36 @@
+
+name: Import Veyron-7 Textures
+
+on:
+  workflow_dispatch:
+
+jobs:
+  import-textures:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Depoyu indir
+        uses: actions/checkout@v4
+
+      - name: ZIP dosyasını kontrol et
+        run: |
+          test -f Veyron-7-Texture-Data.zip
+          unzip -t Veyron-7-Texture-Data.zip
+
+      - name: Texture Data klasörüne aktar
+        run: |
+          unzip -o Veyron-7-Texture-Data.zip -d extracted
+          mkdir -p "Texture Data"
+          cp -r "extracted/Texture Data/." "Texture Data/"
+          rm -rf extracted
+          rm -f Veyron-7-Texture-Data.zip
+
+      - name: Değişiklikleri kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Import Veyron-7 PNG textures" || echo "No changes"
+          git push
