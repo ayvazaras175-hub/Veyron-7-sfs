@@ -75,7 +75,7 @@
   },
   "TERRAIN_DATA": {
     "TERRAIN_TEXTURE_DATA": {
-      "planetTexture": "Venus",
+      "planetTexture": "V7_Velora",
       "planetTextureCutout": 0.945,
       "planetTextureRotation": 0.0,
       "planetTextureDontDistort": true,
